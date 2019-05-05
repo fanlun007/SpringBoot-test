@@ -15,4 +15,9 @@ public class TestController {
     public Object test2(){
         return "failed";
     }
+
+    @GetMapping("/test3")
+    public Object test3(){
+        return "hahaha";
+    }
 }
