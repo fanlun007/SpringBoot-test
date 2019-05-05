@@ -10,4 +10,9 @@ public class TestController {
     public Object test(){
         return "success";
     }
+
+    @GetMapping("/test2")
+    public Object test2(){
+        return "failed";
+    }
 }
