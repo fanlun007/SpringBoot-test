@@ -20,4 +20,9 @@ public class TestController {
     public Object test3(){
         return "hahaha";
     }
+
+    @GetMapping("/test4")
+    public Object test4(){
+        return "test4";
+    }
 }
